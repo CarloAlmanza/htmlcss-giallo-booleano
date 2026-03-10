@@ -46,3 +46,46 @@
         margin-right: 5px;
     }
 }
+
+@media screen and (min-width: 992px) {
+    /* main {
+        padding: 120px;
+    } */
+
+    .recipe-name {
+        font-size: 40px;
+    }
+
+    .quick-notes ul {
+        display: block;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        display: flex;
+        flex-grow: 1;
+        height: auto;
+    }
+
+    .btn {
+        display: flex;
+        gap: 3px;
+        padding: 10px 35px;
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    address {
+        text-align: left;
+    }
+}
